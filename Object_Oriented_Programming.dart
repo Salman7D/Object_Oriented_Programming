@@ -39,6 +39,18 @@ class Manager extends Employee {
   }
 }
 
+class Developer extends Employee {
+  String programmingLanguage;
+
+  Developer(String name, double salary, this.programmingLanguage) : super(name, salary);
+
+  void displayInfo() {
+    print('Name: $name');
+    print('Salary: \$${salary.toStringAsFixed(2)}');
+    print('Programming Language: $programmingLanguage');
+  }
+}
+
 main(){
   print("Assignment 4");
 }
