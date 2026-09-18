@@ -20,6 +20,14 @@ class Book {
   }
 }
 
+class Employee {
+  String name;
+  double salary;
+
+  // Constructor
+  Employee(this.name, this.salary);
+}
+
 main(){
   print("Assignment 4");
 }
