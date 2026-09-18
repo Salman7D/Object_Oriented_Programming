@@ -11,6 +11,13 @@ class Book {
 
     return finalPrice;
   }
+
+  void displayBookInfo(double discountPercent) {
+    print('Title: $title');
+    print('Author: $author');
+    print('Original Price: \$${price.toStringAsFixed(2)}');
+    print('Discounted Price: \$${discountedPrice(discountPercent).toStringAsFixed(2)}');
+  }
 }
 
 main(){
