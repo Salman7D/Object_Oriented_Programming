@@ -53,8 +53,22 @@ class Developer extends Employee {
 
 abstract class Appliance{
   void turnOn();
-  void turnoff();
+  void turnOff();
 }
+
+class Fan extends Appliance{
+
+  @override
+  void turnOn(){
+    print('Fan is now running');
+  }
+
+  @override
+  void turnOff(){
+    print('Fan is now turned off');
+  }
+}
+
 
 
 main(){
