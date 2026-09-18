@@ -24,8 +24,19 @@ class Employee {
   String name;
   double salary;
 
-  // Constructor
   Employee(this.name, this.salary);
+}
+
+class Manager extends Employee {
+  String department;
+
+  Manager(String name, double salary, this.department) : super(name, salary);
+
+  void displayInfo() {
+    print('Name: $name');
+    print('Salary: \$${salary.toStringAsFixed(2)}');
+    print('Department: $department');
+  }
 }
 
 main(){
