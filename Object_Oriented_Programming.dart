@@ -51,6 +51,12 @@ class Developer extends Employee {
   }
 }
 
+abstract class Appliance{
+  void turnOn();
+  void turnoff();
+}
+
+
 main(){
   print("Assignment 4");
 }
