@@ -102,7 +102,7 @@ main(){
   print('\nManager Information:');
   manager.displayInfo();
 
-  Developer developer = Developer("Farshy", 70000, "Dart");
+  Developer developer = Developer('Farshy', 70000, 'Dart');
 
   print('\nDeveloper Information:');
   developer.displayInfo();
@@ -113,5 +113,7 @@ main(){
 
   fan.turnOn();
   fan.turnOff();
+
+  Light light = Light();
 
 }
