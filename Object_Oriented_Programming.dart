@@ -91,4 +91,9 @@ main(){
 
   Book book_2 = Book("Clean Code", "Robert C. Martin", 800);
 
+  book_1.displayBookInfo(10);
+
+  print(" ");
+
+  book_2.displayBookInfo(20);
 }
