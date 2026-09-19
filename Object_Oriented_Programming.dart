@@ -79,9 +79,16 @@ class Light extends Appliance{
   @override
   void turnOff() {
     print('Light is switched off');
+
   }
 }
 
 main(){
-  print("Assignment 4");
+
+  print('========== BOOK INFORMATION ==========');
+
+  Book book_1 = Book("The Alchemist", "Paulo Coelho", 500);
+
+  Book book_2 = Book("Clean Code", "Robert C. Martin", 800);
+
 }
