@@ -111,4 +111,7 @@ main(){
 
   Fan fan = Fan();
 
+  fan.turnOn();
+  fan.turnOff();
+
 }
