@@ -96,4 +96,16 @@ main(){
   print(" ");
 
   book_2.displayBookInfo(20);
+  
+  Manager manager = Manager('Salman', 60000, 'Human Resources');
+
+  print('\nManager Information:');
+  manager.displayInfo();
+
+  Developer developer = Developer("Farshy", 70000, "Dart");
+
+  print('\nDeveloper Information:');
+  developer.displayInfo();
+
+
 }
