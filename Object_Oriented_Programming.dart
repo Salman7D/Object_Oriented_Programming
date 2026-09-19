@@ -107,5 +107,8 @@ main(){
   print('\nDeveloper Information:');
   developer.displayInfo();
 
+  print('\n========== APPLIANCE INFORMATION ==========');
+
+  Fan fan = Fan();
 
 }
