@@ -116,4 +116,6 @@ main(){
 
   Light light = Light();
 
+  light.turnOn();
+  light.turnOff();
 }
