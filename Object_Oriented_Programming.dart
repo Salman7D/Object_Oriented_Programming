@@ -114,6 +114,8 @@ main(){
   fan.turnOn();
   fan.turnOff();
 
+  print(" ");
+
   Light light = Light();
 
   light.turnOn();
